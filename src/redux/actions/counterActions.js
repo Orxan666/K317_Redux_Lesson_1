@@ -1,0 +1,16 @@
+import actionTypes from "../actionTypes";
+
+
+const sayiArttir = (val) => {
+    return { type: actionTypes.count.SAYI_ARTTIR, payload: val }
+}
+
+const sayiAzalt = (val) => {
+    return { type: actionTypes.count.SAYI_AZALT, payload: val }
+}
+
+
+const sayiAksiyon = {
+    sayiArttir, sayiAzalt
+}
+export default sayiAksiyon;
